@@ -1,0 +1,16 @@
+<div class="warpper" style="background-image: url('https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fwww.solosea.com%2Fres%2Fupload%2Ffpdown%2Fimg%2Fab364d488a7a42f625ea2b78d9d69ac3.jpg&refer=http%3A%2F%2Fwww.solosea.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1649685317&t=f2b993a03b32c546a385891888d45c9c');">
+			<scroller
+				 class="scroller" 
+			>
+		
+				<div class="row">
+
+					<div class="card" a:for="{{animal}}" a:for-item="item" style="background-image: url('{{item.images[0].url}}');" data-name="{{item.name}}" onTap="enter2animal" data-img="{{item.images[0].url}}" data-audios="{{item.audios}}" data-content="{{item.content}}">
+            <text class="card-title">
+              {{item.name}}
+            </text>
+          </div>
+
+				</div>
+			</scroller>
+</div>

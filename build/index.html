@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title></title>
+  <link rel="stylesheet" href="./normalize.css" />
+  <link rel="icon" href="./favicon.ico"/>
+  <!-- swiper -->
+  <link rel="stylesheet" href="./swiper-bundle.css" />
+  <script src="./waft-web.js"></script>
+  <style>
+    html,
+    body,
+    #root {
+      width: 100%;
+      height: 100%;
+      box-sizing: border-box;
+      padding: 0;
+      margin: 0;
+      overflow: auto;
+    }
+
+    *,
+    *:before,
+    *:after {
+      box-sizing: inherit;
+    }
+
+    view,
+    swiper,
+    scroll-view,
+    progress,
+    rich-text {
+      display: block;
+    }
+
+    text,
+    navigator {
+      display: inline;
+    }
+
+    p {
+      margin: 0;
+    }
+  </style>
+</head>
+
+<body>
+  <main id="root">
+    <div id="waft"></div>
+  </main>
+  <script type="text/javascript" src="./waft-web.js"></script>
+  <!-- swiper -->
+  <script type="text/javascript" src="./swiper-bundle.js"></script>
+  <script>
+    // var vConsole = new window.VConsole();
+    waft_load("./app.wasm",1024);
+  </script>
+</body>
+</html>

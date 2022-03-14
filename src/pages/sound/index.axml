@@ -1,0 +1,13 @@
+<div class="warpper" ><!--style="background-image: url('{{animal_img}}');"-->
+  <video src="{{animal_audios}}"
+    id="video2music"
+    scale-type="fit-xy"
+    controls="{{true}}"
+    style="height: 100%;width: 100%;background-image: url('{{animal_img}}');background-size: cover;"
+    >
+  </video>
+  <div class="footer">
+    <div class="button" onTap="return2index">返回</div>
+    <div class="title">{{animal_name}}的声音</div>
+  </div>
+</div>

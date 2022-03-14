@@ -1,0 +1,14 @@
+<div class="warpper" style="background-image: url('https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fimg.pptjia.com%2Fimage%2F20180607%2Ff52517266d706af75594b213abcc5425.jpg&refer=http%3A%2F%2Fimg.pptjia.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1649690574&t=671fce1c6e974ef9ee08352d89fb4c41');">
+  <div class="header">{{animal_name}}</div>
+  <div class="content" >
+    <div
+      class="img"
+      style="background-image: url('{{animal_img}}');"
+    ></div>
+    <div class="description">{{animal_content}}</div>
+  </div>
+  <div class="footer">
+    <div class="button" data-name="{{animal_name}}" onTap="enter2sound" data-img="{{animal_img}}" data-audios="{{animal_audios}}" data-content="{{animal_content}}">聆听{{animal_name}}的声音</div>
+    <div class="button" onTap="return2index">了解其他动物</div>
+  </div>
+</div>

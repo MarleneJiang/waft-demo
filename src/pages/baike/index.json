@@ -1,0 +1,9 @@
+{
+  "usingComponents": {},
+  "state":{
+    "animal_name":"test",
+    "animal_img":"",
+    "animal_audios":"",
+    "animal_content":""
+  }
+}

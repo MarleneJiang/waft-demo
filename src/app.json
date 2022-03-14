@@ -1,0 +1,16 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/baike/index",
+    "pages/sound/index"
+  ],
+  "default": "pages/index/index",
+  "window": {
+    "defaultTitle": "天气小蜜"
+  },
+  "viewport": {
+    "width": 1024,
+    "height": 600,
+    "scaleMode": "fixedHeight"
+  }
+}
